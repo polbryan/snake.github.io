@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(to bottom, black, #40c347, black);
+}
+#game-container{
+  text-align: center;
+}
+#game-board{
+  border: 3px solid  #40c347;
+}
+.stat-container{
+  width: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+#score-text{
+  font-family: "consolas", cursive;
+  font-size: 50px;
+  color:  #40c347;
+}
+#reset-button{
+  font-family: "Permanent Marker", cursive;
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  background: black;
+  color:  #40c347;
+  margin: auto 20px;
+  border: 4px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+button{
+  height: 50px;
+  width: 70px;
+  margin: 0px 0px 10px 10px;
+  background: black;
+  color:  #40c347;
+  border: 2px solid #40c347;
+}
